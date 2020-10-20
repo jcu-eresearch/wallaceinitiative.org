@@ -1,0 +1,91 @@
+/*
+ * theme styling for Wallace Initiative web-site
+ */
+ 
+.intro {
+  background-color : #242732;
+}
+
+body {
+  background-color : #2D4047;
+}
+
+.jcu-content {
+  background-color : #F5F2E9;
+}
+
+body.theme-landing {
+  background-color : #F5F2E9;
+}
+
+/* 
+ *  Summary Cards content block themeing
+ */
+.summarycard-layout-grid .btn-secondary {
+    background-color : #FAF5E3;
+    border-style : none;
+    display : block;
+}
+
+.summarycard-layout-grid .card-block::after {
+  content : none;
+}
+
+.summarycard-layout-grid .card-outline-secondary {
+  background-color : #ffffff;
+  border-style :  none;
+  padding : 0.5rem 0.5rem 0 0.5rem;
+}
+
+.summarycard-layout-column .row {
+  background-color : #ffffff;
+  border-style :  none;
+  padding : 1rem 0;
+}
+
+/* class added for use with the Image Gallery content block to control tall but not wide logos */
+.max-logo-height {
+  max-height : 5rem;
+}
+
+/*
+ * theme'd colours for alerts and buttons
+ */
+
+.alert-info {
+  background-color: #fff;
+  border-color : #777956;
+  color: #777956; 
+}
+
+.btn-primary {
+  background-color: #2d4047;
+  border-color : #2d4047;
+ }
+ 
+.btn-primary:hover {
+  background-color: #425E69;
+  border-color : #425E69;
+ }
+ 
+.btn-secondary {
+  background-color: #c8bfa8;
+  border-color: #c8bfa8;
+}
+
+.btn-secondary:hover {
+  background-color: #B8AF9A;
+  border-color: #B8AF9A;
+}
+
+.btn-info {
+  background-color : #f5f2e9;
+  border-color : #f5f2e9;
+  color : #242732;
+}
+
+.btn-info:hover {
+  background-color : #CFCCC4;
+  border-color : #CFCCC4;
+  color : #242732;
+}
